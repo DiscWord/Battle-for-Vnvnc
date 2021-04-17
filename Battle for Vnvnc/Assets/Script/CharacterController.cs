@@ -104,7 +104,7 @@ namespace Cainos
             else
             if (Input.GetKey(rightKey)) inputH = 1.0f;
             else inputH = 0.0f;
-
+            
             bool inputRun = false;
             if (defaultMovement == MovementType.Walk && inputMoveModifier) inputRun = true;
             if (defaultMovement == MovementType.Run && !inputMoveModifier) inputRun = true;
